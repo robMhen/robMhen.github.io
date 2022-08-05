@@ -1,0 +1,23 @@
+site_name: Robyn Henry | Technical Writer
+site_url: https://robMhen.github.io/
+theme:
+  name: readthedocs
+  nav_style: dark
+nav:
+  - Home: 'index.md'
+  - My Resume: 'about.md'
+  - Contact Me: 'contact.md'
+  - 'Writing Samples': 
+    - 'Overview': 'Writing Samples.md'
+    - 'Getting Started': 'getting started.md'
+    - 'Installation Guide': 'installation.md'
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - fontawesome_markdown
